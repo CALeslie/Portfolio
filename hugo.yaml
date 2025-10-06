@@ -65,7 +65,7 @@ params:
     enable: true
     title: Projects
     items:
-      - title: 666 Malevolence Lane
+      - title: 666 Malevolence Lane - 2026
         content: An action-packed minigame focused local multiplayer experience. Responsible for technical direction and build automation.
         image: images/mallane2.jpg
         badges:
@@ -73,7 +73,7 @@ params:
           - "Blueprint"
           - "Python"
 
-      - title: "Pizza Wizard: 144X"
+      - title: "Pizza Wizard: 144X - 2024"
         content: Arcade style pizza delivery game. I was responsible for all of the modeling and texturing, as well as UI design and implementation.
         image: images/pizzawizard.png
         badges:
@@ -87,3 +87,53 @@ params:
           - icon: fab fa-itch-io
             url: https://cube-number-zero.itch.io/pizza-wizard-144x
 
+      - title: "Bone Rolla - 2022"
+        content: Roguelike dice game, curate and refine your dice collection as you delve as deep into the dungeon as you can! Solo project made in Unity.
+        image: images/bonerolla.png
+        badges:
+          - "Unity"
+          - "C#"
+        links:
+          - icon: fab fa-itch-io
+            url: https://thecammy.itch.io/bonerolla
+
+      - title: "Deep Cover - 2022"
+        content: Shawnee University Fall Game Jam entry about making your own camouflage. I was responsible for all programming and project structure. Won most interesting mechanic and 2nd overall in game jam!
+        image: images/deepcover.png
+        badges:
+          - "Unity"
+          - "C#"
+        links:
+          - icon: fab fa-itch-io
+            url: https://thecammy.itch.io/deep-cover
+
+      - title: "RandomItemGen - 2021"
+        content: Small personal prototype that recreates the item structure from ARPG's such as Path of Exile, along with other RPG elements like talent tree and applying item attributes to player stats. Solo project in Unity.
+        image: images/randomitemgen.png
+        badges:
+          - "Unity"
+          - "C#"
+        links:
+          - icon: fab fa-itch-io
+            url: https://thecammy.itch.io/deep-cover
+
+      - title: "Duality - 2018"
+        content: "Entry into the Itch.io Weekly Game Jam #76. Puzzle game about solving which things you need to sort out before you die, utilize your ghost to do what your body couldn't do! Solo project in Unity."
+        image: images/duality.png
+        badges:
+          - "Unity"
+          - "C#"
+        links:
+          - icon: fab fa-itch-io
+            url: https://thecammy.itch.io/duality
+
+      - title: "Pocket Healer - 2017"
+        content: "Previously published on the Google Playstore. RPG game about keeping your party healed while they take care of the bad guys, can you make it past the dragon at wave 100? Solo project in Unity."
+        image: images/pockethealer.png
+        badges:
+          - "Unity"
+          - "C#"
+          - "Solo-developed"
+        links:
+          - icon: fab fa-itch-io
+            url: https://thecammy.itch.io/pocket-healer
