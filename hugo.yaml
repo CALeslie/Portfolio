@@ -49,7 +49,7 @@ params:
     button:
       enable: true
       name: Resume
-      url: /resume
+      url: /resume.pdf
       download: false
       newPage: true
     socialLinks:
