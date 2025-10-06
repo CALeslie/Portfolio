@@ -34,6 +34,8 @@ params:
   description: Software engineering student at Shawnee State University specializing in digital simulation and games.
   animate: true
 
+  useBootstrapCDN: false
+
   navbar:
     disableSearch: true
 
