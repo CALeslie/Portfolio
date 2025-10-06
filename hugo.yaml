@@ -74,7 +74,7 @@ params:
           - "Python"
 
       - title: "Pizza Wizard: 144X - 2024"
-        content: Arcade style pizza delivery game. I was responsible for UI design and implementation and general game loop, as well as all of the modeling and texturing.
+        content: Arcade style pizza delivery game. I was responsible for UI design and implementation, and general game loop. Also was responsible for all of the modeling and texturing.
         image: images/pizzawizard.png
         badges:
           - "Godot"
@@ -142,7 +142,7 @@ params:
             url: https://thecammy.itch.io/pocket-healer
 
       - title: "Big Blosion - 2016"
-        content: "Prototype for a side scrolling shooter game."
+        content: "Prototype for a side scrolling shooter game. Use a small arsenal of weapons to fight robotic spiders and tanks."
         image: images/bigblosion2.png
         badges:
           - "Unity"
