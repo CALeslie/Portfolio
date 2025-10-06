@@ -1,0 +1,83 @@
+baseURL: https://caleslie.github.io/portfolio
+languageCode: en-us
+title: Camilla Leslie - Software Engineer
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+Menus:
+  main:
+    - identifier: about
+      name: About
+      title: About
+      url: /about
+      weight: 1
+    - identifier: gallery
+      name: Gallery
+      title: Blog posts
+      url: /gallery
+      weight: 2
+
+params:
+  title: Camilla Leslie
+  description: Software engineering student at Shawnee State University specializing in digital simulation and games.
+  animate: true
+
+  navbar:
+    disableSearch: true
+
+  hero:
+    enable: true
+    intro: Digital Simulation - Shawnee State University
+    title: Camilla Leslie
+    content: Software engineer specializing in digital simulation and games.
+    image: /images/camilla2.jpg
+    roundImage: true
+    button:
+      enable: true
+      name: Resume
+      url: /resume
+      download: false
+      newPage: true
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/CALeslie
+        - icon: fab fa-linkedin-in
+          url: https://linkedin.com
+        - icon: fab fa-itch-io
+          url: https://thecammy.itch.io/
+
+  projects:
+    enable: true
+    title: Projects
+    items:
+      - title: 666 Malevolence Lane
+        content: An action-packed minigame focused local multiplayer experience. Responsible for technical direction and build automation.
+        image: /images/projects/mallane2.jpg
+        badges:
+          - "Unreal Engine 5.6"
+          - "Blueprint"
+          - "Python"
+
+      - title: "Pizza Wizard: 144X"
+        content: Arcade style pizza delivery game. I was responsible for all of the modeling and texturing, as well as UI design and implementation.
+        image: /images/projects/pizzawizard.png
+        badges:
+          - "Godot"
+          - "GDScript"
+          - "Blender"
+          - "Inkscape"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/Anamethatworks/PizzaWizard
+          - icon: fab fa-itch-io
+            url: https://cube-number-zero.itch.io/pizza-wizard-144x
+
