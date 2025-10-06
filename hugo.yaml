@@ -36,8 +36,6 @@ params:
 
   useBootstrapCDN: false
 
-  staticPath: https://caleslie.github.io/Portfolio/static
-
   navbar:
     disableSearch: true
 
