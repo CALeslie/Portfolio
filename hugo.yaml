@@ -67,7 +67,7 @@ params:
     items:
       - title: 666 Malevolence Lane
         content: An action-packed minigame focused local multiplayer experience. Responsible for technical direction and build automation.
-        image: images/projects/mallane2.jpg
+        image: images/mallane2.jpg
         badges:
           - "Unreal Engine 5.6"
           - "Blueprint"
@@ -75,7 +75,7 @@ params:
 
       - title: "Pizza Wizard: 144X"
         content: Arcade style pizza delivery game. I was responsible for all of the modeling and texturing, as well as UI design and implementation.
-        image: /mages/projects/pizzawizard.png
+        image: images/pizzawizard.png
         badges:
           - "Godot"
           - "GDScript"
