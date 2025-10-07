@@ -20,6 +20,15 @@
                             {{ .content }}
                         </div>
                     </div>
+                    {{ if .collaborative | default false }}
+                    <div class="card-footer py-3">Responsibilities:
+                            <div class="pb-2 bg-transparent">
+                                {{ range .responsibilities }}
+                                <span class="badge badge-secondary">{{ . }}</span>
+                                {{ end }}
+                            </div>
+                        </div>
+                        {{ end }}
                     {{ if or (.links) (.featured) }}
                     <div class="card-footer py-3">
                         {{ range .links }}
@@ -52,6 +61,12 @@
                         <div class="pb-2 bg-transparent">
                             {{ range .Params.badges }}
                             <span class="badge badge-secondary">{{ . }}</span>
+                            {{ end }}
+                        </div>
+                        <div class="pb-2 bg-transparent">
+                            {{ range .Params.responsibilities }}
+                            <span class="badge badge-secondary">{{ . }}</span>
+                            <br>
                             {{ end }}
                         </div>
                         <h5 class="card-title bg-transparent">{{ .Title | truncate 50 }}</h5>
