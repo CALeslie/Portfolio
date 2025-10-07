@@ -12,6 +12,11 @@
     background-image: linear-gradient(to bottom, var(--background-color), var(--background-fade-color));
 }
 
+.light #contactBorder{
+    height: 1px;
+    background-color: #777777;
+}
+
 /* dark mode */
 .dark {
     --background-color: var(--background-color-dark) !important;
