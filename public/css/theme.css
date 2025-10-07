@@ -9,7 +9,7 @@
 }
 
 .light #about{
-    background-image: linear-gradient(to bottom, #eaedf0, #a1cae2);
+    background-image: linear-gradient(to bottom, var(--background-color), var(--background-fade-color));
 }
 
 /* dark mode */
@@ -29,7 +29,7 @@
 }
 
 .dark #about{
-    background-image: linear-gradient(to bottom, #18191a, #1e2730);
+    background-image: linear-gradient(to bottom, var(--background-color-dark), var(--background-fade-color-dark));
 }
 
 .text-secondary {
