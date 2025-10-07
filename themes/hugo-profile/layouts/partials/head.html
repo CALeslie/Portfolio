@@ -47,6 +47,7 @@
         --text-link-color: {{ .Site.Params.color.textLinkColor | default (.Site.Params.color.primaryColor | default "#007bff") }};
         --background-color: {{ .Site.Params.color.backgroundColor | default "#eaedf0" }};
         --secondary-background-color: {{ .Site.Params.color.secondaryBackgroundColor | default "#64ffda1a" }};
+        --background-fade-color: {{ .Site.Params.color.backgroundFadeColor | default "#a1cae2"}}
         --primary-color: {{ .Site.Params.color.primaryColor | default "#2883b8" }};
         --secondary-color: {{ .Site.Params.color.secondaryColor | default "#f8f9fa" }};
 
@@ -56,6 +57,7 @@
         --text-link-color-dark: {{ .Site.Params.color.darkmode.textLinkColor | default (.Site.Params.color.darkmode.primaryColor | default "#ffffff") }};
         --background-color-dark: {{ .Site.Params.color.darkmode.backgroundColor | default "#18191a" }};
         --secondary-background-color-dark: {{ .Site.Params.color.darkmode.secondaryBackgroundColor | default "#212529" }};
+        --background-fade-color-dark: {{ .Site.Params.color.backgroundFadeColor | default "#a1cae2"}}
         --primary-color-dark: {{ .Site.Params.color.darkmode.primaryColor | default "#ffffff" }};
         --secondary-color-dark: {{ .Site.Params.color.darkmode.secondaryColor | default "#212529" }};
     }
