@@ -16,19 +16,11 @@ outputs:
     - "HTML"
     - "RSS"
 
-Menus:
-  main:
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
-
 params:
   title: Camilla Leslie
   description: Software engineering student at Shawnee State University specializing in digital simulation and games.
   animate: true
-  favicon: favicon.png
+  favicon: images/uccello2.svg
   useBootstrapCDN: false
 
   navbar:
@@ -165,9 +157,9 @@ params:
   about:
     enable: true
     title: About
-    image: images/uccello.png
+    image: images/uccello2.svg
     content: |+
-      I'm currently a senior at Shawnee State University in Portsmouth, OH, studying Digital Simulation! Passionate about making memorable games and digital experiences, let's make something unique together!
+      I'm currently a senior at Shawnee State University in Portsmouth, OH, studying Digital Simulation! Passionate about making memorable games and digital experiences. Let's make something unique together!
 
     skills:
       enable: true
@@ -191,12 +183,6 @@ params:
     btnLink: mailto:lesliec@mymail.shawnee.edu
 
   footer:
-    recentPosts:
-      path: "blogs"
-      count: 4
-      title: Recent Posts
-      enable: true
-      disableFeaturedImage: false
     socialNetworks:
       github: https://github.com/CALeslie
       linkedin: https://linkedin.com

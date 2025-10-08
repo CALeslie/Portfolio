@@ -13,12 +13,12 @@
 }
 
 .light #contactBorder{
-    height: 1px;
+    height: 2px;
     background-color: #777777;
 }
 
 /* dark mode */
-.dark {
+.dark > *{
     --background-color: var(--background-color-dark) !important;
     --secondary-background-color: var(--secondary-background-color-dark) !important;
     --background-fade-color: var(--background-fade-color-dark) !important;
@@ -27,6 +27,7 @@
     --text-link-color: var(--text-link-color-dark) !important;
     --primary-color: var(--primary-color-dark);
     --secondary-color: var(--secondary-color-dark);
+    fill: #FFFFFF00;
 }
 
 .dark #footer-socialNetworks-github-svg-path{
@@ -35,6 +36,12 @@
 
 .dark #about{
     background-image: linear-gradient(to bottom, var(--background-color-dark), var(--background-fade-color-dark));
+    fill: #ffffff00;
+}
+
+.dark #about-image{
+    fill: #ffffff00;
+    background-color: #FFFFFF00;
 }
 
 .text-secondary {

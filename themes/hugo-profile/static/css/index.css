@@ -51,6 +51,21 @@
   }
 }
 
+@keyframes fade-up-delayed {
+  0% {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 header .navbar.animate {
     animation: fade-up 0.5s ease-in;
 }
@@ -71,7 +86,7 @@ header .navbar.animate {
 /* hero */
 
 #hero {
-    min-height: 100vh;
+    min-height: 60vh;
     line-height: 2rem;
     max-width: 100%;
 }
@@ -112,6 +127,7 @@ header .navbar.animate {
     padding: 0;
     border: 3px solid var(--secondary-color);
     border-radius: 1rem;
+    background-color: #ffffff00;
 }
 
 #hero .image.animate img {
@@ -208,6 +224,7 @@ header .navbar.animate {
     transition: box-shadow 0.3s;
     padding: 0;
     border: 0;
+    background-color: #ffffff00;
 }
 
 #about .image img:hover {

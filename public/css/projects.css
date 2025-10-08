@@ -2,6 +2,7 @@
 
 #projects h3 {
     color: var(--text-secondary-color) !important;
+    animation: fade-up-delayed 2s ease-out;
 }
 
 #projects a {
@@ -22,6 +23,7 @@
     overflow: hidden;
     border-radius: 1rem;
     border: none !important;
+    animation: fade-up-delayed 2s ease-out;
 }
 
 #projects .card:hover {
