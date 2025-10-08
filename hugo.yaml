@@ -20,7 +20,7 @@ params:
   title: Camilla Leslie
   description: Software engineering student at Shawnee State University specializing in digital simulation and games.
   animate: true
-  favicon: images/uccello2.svg
+  favicon: images/Uccello2.svg
   useBootstrapCDN: false
 
   navbar:
@@ -157,7 +157,7 @@ params:
   about:
     enable: true
     title: About
-    image: images/uccello2.svg
+    image: images/Uccello2.svg
     content: |+
       I'm currently a senior at Shawnee State University in Portsmouth, OH, studying Digital Simulation! Passionate about making memorable games and digital experiences. Let's make something unique together!
 
