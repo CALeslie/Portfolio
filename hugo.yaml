@@ -46,7 +46,7 @@ params:
         - icon: fab fa-github
           url: https://github.com/CALeslie
         - icon: fab fa-linkedin-in
-          url: https://linkedin.com
+          url: https://www.linkedin.com/in/camilla-leslie/
         - icon: fab fa-itch-io
           url: https://thecammy.itch.io/
 
@@ -159,7 +159,7 @@ params:
     title: About
     image: images/Uccello2.svg
     content: |+
-      I'm currently a senior at Shawnee State University in Portsmouth, OH, studying Digital Simulation! Passionate about making memorable games and digital experiences. Let's make something unique together!
+      I'm currently a senior at Shawnee State University in Portsmouth, OH, studying Digital Simulation! Passionate about making memorable games and interactive digital experiences. Let's make something unique together!
 
     skills:
       enable: true
@@ -175,6 +175,26 @@ params:
         - GIMP
         - Blender
 
+  experience:
+    enable: true
+    items:
+      - job: Technical Director
+        company: Bearly A Studio
+        date: "Mar 2025 - present"
+        content: "Responsible for overseeing Technical Direction of engineering students working on 666 Malevolence Lane - the collaborative capstone project for the Digital Simulation program at Shawnee State University in 2025-26."
+
+  education:
+    enable: true
+    index: false
+    items:
+      - title: "Bachelor of Science in Digital Simulation and Gaming Engineering Technology"
+        school:
+          name: "Shawnee State University"
+          url: "https://shawnee.edu"
+        date: "2022 - 2026"
+        GPA: "3.6 out of 4.0"
+        content: "Well rounded mix of theory and application of multiple areas of Computer Science including data structures, operating systems, 3D graphics programming, algorithms, and more. Developed several game projects while studying, and currently spending my senior year as Technical Director for the collaborative capstone project '666 Malevolence Lane'."
+
   contact:
     enable: true
     title: "Contact"
@@ -185,4 +205,4 @@ params:
   footer:
     socialNetworks:
       github: https://github.com/CALeslie
-      linkedin: https://linkedin.com
+      linkedin: https://linkedin.com/in/camilla-leslie/
