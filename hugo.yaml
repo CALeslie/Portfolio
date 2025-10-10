@@ -68,7 +68,7 @@ params:
           - "Build Automation"
           - "Main Game Loop"
 
-      - title: "Pizza Wizard: 144X - 2024"
+      - title: "Pizza Wizard: 144X - 2025"
         content: Arcade style pizza delivery game, utilize spells and upgrades to try and achieve a highscore. Made all models and art assets except title logo by hand.
         image: images/pizzawizard.png
         badges:
