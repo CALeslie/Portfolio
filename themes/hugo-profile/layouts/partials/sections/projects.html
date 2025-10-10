@@ -20,6 +20,15 @@
                             {{ .content }}
                         </div>
                     </div>
+                    {{ if .features.enable | default false }}
+                    <div class="card-footer py-3">Features I worked on:
+                            <div class="pb-2 bg-transparent">
+                                {{ range .features.items }}
+                                <span class="badge badge-secondary">{{ . }}</span>
+                                {{ end }}
+                            </div>
+                        </div>
+                        {{ end }}
                     {{ if .collaborative | default false }}
                     <div class="card-footer py-3">Responsibilities:
                             <div class="pb-2 bg-transparent">

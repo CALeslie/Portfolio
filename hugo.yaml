@@ -38,7 +38,7 @@ params:
     button:
       enable: true
       name: Resume
-      url: res.pdf
+      url: resu.pdf
       download: false
       newPage: true
     socialLinks:
@@ -64,11 +64,12 @@ params:
         collaborative: true
         responsibilities:
           - "Technical Direction"
-          - "Gameplay Programmer"
+          - "Gameplay Programming"
           - "Build Automation"
+          - "Main Game Loop"
 
       - title: "Pizza Wizard: 144X - 2024"
-        content: Arcade style pizza delivery game, utilize spells and upgrades to try and achieve a highscore.
+        content: Arcade style pizza delivery game, utilize spells and upgrades to try and achieve a highscore. Made all models and art assets except title logo by hand.
         image: images/pizzawizard.png
         badges:
           - "Godot"
@@ -76,8 +77,13 @@ params:
           - "Blender"
           - "Inkscape"
         collaborative: true
+        features:
+          enable: false
+          items:
+            - "Dynamic Minimap with Markers"
+            - "Smooth and Responsive UI"
         responsibilities:
-          - "UI Design & implementation"
+          - "UI Design & Implementation"
           - "Modeling"
           - "Texturing"
         links:
@@ -93,6 +99,12 @@ params:
           - "Unity"
           - "C#"
           - "Solo-developed"
+        features:
+          enable: true
+          items:
+            - "Deckbuilding Mechanics"
+            - "Turn-based Combat"
+            - "Random Events"
         links:
           - icon: fab fa-itch-io
             url: https://thecammy.itch.io/bonerolla
@@ -103,9 +115,13 @@ params:
         badges:
           - "Unity"
           - "C#"
-        collaborative: true
-        responsibilities:
-          - "Gameplay Programmer"
+          - "Solo-programmed"
+        features:
+          enable: true
+          items:
+            - "Raster Drawing System"
+            - "Image Comparison"
+            - "Stealth Detection & Enemy AI"
         links:
           - icon: fab fa-itch-io
             url: https://thecammy.itch.io/deep-cover
@@ -117,6 +133,12 @@ params:
           - "Unity"
           - "C#"
           - "Solo-developed"
+        features:
+          enable: true
+          items:
+            - "Random Item Generation"
+            - "Item Attribute System"
+            - "Inventory & Equipment System"
         links:
           - icon: fab fa-itch-io
             url: https://thecammy.itch.io/deep-cover
@@ -128,6 +150,12 @@ params:
           - "Unity"
           - "C#"
           - "Solo-developed"
+        features:
+          enable: true
+          items:
+            - "Key & Switch Puzzle Mechanics"
+            - "Simple Enemy AI"
+            - "Player Death - Ghost Mechanics"
         links:
           - icon: fab fa-itch-io
             url: https://thecammy.itch.io/duality
@@ -182,6 +210,8 @@ params:
         company: Bearly A Studio
         date: "Mar 2025 - present"
         content: "Responsible for overseeing Technical Direction of engineering students working on 666 Malevolence Lane - the collaborative capstone project for the Digital Simulation program at Shawnee State University in 2025-26."
+        info:
+          enable: false
 
   education:
     enable: true
@@ -192,7 +222,7 @@ params:
           name: "Shawnee State University"
           url: "https://shawnee.edu"
         date: "2022 - 2026"
-        GPA: "3.6 out of 4.0"
+        GPA: "3.64 out of 4.0"
         content: "Well rounded mix of theory and application of multiple areas of Computer Science including data structures, operating systems, 3D graphics programming, algorithms, and more. Developed several game projects while studying, and currently spending my senior year as Technical Director for the collaborative capstone project '666 Malevolence Lane'."
 
   contact:
