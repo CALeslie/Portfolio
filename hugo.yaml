@@ -192,7 +192,8 @@ params:
         - Unreal Engine 5
         - Unity
         - Godot
-        - C++/C#
+        - C++
+        - C#
         - GDScript
         - Python
         - Inkscape
@@ -202,10 +203,10 @@ params:
   experience:
     enable: true
     items:
-      - job: Technical Director
+      - job: Technical Director - Part-time
         company: Bearly A Studio
-        date: "Mar 2025 - present"
-        content: "Responsible for overseeing Technical Direction of engineering students working on 666 Malevolence Lane - the collaborative capstone project for the Digital Simulation program at Shawnee State University in 2025-26."
+        date: "Apr 2025 - present"
+        content: "Responsible for overseeing technical direction of engineering students working on 666 Malevolence Lane - the collaborative capstone project for the Digital Simulation program at Shawnee State University in 2025-26."
         info:
           enable: false
 
