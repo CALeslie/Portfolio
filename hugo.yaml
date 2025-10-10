@@ -160,28 +160,6 @@ params:
           - icon: fab fa-itch-io
             url: https://thecammy.itch.io/duality
 
-      - title: "Pocket Healer - 2017"
-        content: "Previously published on the Google Playstore, developed for Android. RPG game about keeping your party healed while they take care of the bad guys."
-        image: images/pockethealer.png
-        badges:
-          - "Unity"
-          - "C#"
-          - "Solo-developed"
-        links:
-          - icon: fab fa-itch-io
-            url: https://thecammy.itch.io/pocket-healer
-
-      - title: "Big Blosion - 2016"
-        content: "Prototype for a side scrolling shooter game. Use a small arsenal of weapons to fight robotic spiders and tanks."
-        image: images/bigblosion2.png
-        badges:
-          - "Unity"
-          - "C#"
-          - "Solo-developed"
-        links:
-          - icon: fab fa-itch-io
-            url: https://thecammy.itch.io/big-blosion
-
   about:
     enable: true
     title: About
